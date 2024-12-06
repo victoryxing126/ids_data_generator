@@ -1,0 +1,21 @@
+#!wing
+#!version=9.0
+##################################################################
+# Wing project file                                              #
+##################################################################
+[project attributes]
+proj.directory-list = [{'dirloc': loc('dataset'),
+                        'excludes': (),
+                        'filter': '*',
+                        'include_hidden': True,
+                        'recursive': True,
+                        'watch_for_changes': True},
+                       {'dirloc': loc('.'),
+                        'excludes': (),
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-list = [loc('A_main.py'),
+                  loc('requirements.txt')]
+proj.file-type = 'shared'
