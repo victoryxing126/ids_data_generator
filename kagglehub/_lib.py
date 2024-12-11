@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import sqlite3, os
+import sqlite3, os, uuid
 from datetime import datetime
 
 
